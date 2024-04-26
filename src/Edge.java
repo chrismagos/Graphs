@@ -10,10 +10,13 @@ public class Edge {
     public Vertex getVertex1() {
         return _vertex1;
     }
-    public Vertex get_vertex2() {
+    public Vertex getVertex2() {
         return _vertex2;
     }
-    public int get_weight() {
+    public int getWeight() {
         return _weight;
+    }
+    public String toString(){
+        return "Start Vertex: " + _vertex1 + "\tEnd Vertex: " + _vertex2 + "\tWeight: " + _weight;
     }
 }
